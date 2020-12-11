@@ -9,12 +9,16 @@
     <link rel="stylesheet" type="text/css" href="content/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="content/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="content/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/animate.min.css" />
     <link rel="stylesheet" type="text/css" href="content/fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
 
-    <!--Navigation-->
-    <div id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Navigation -->
+    <div id="devNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!--Logo and responsive toggle. This part is for functionality only-->
             <div class="navbar-header">
@@ -51,11 +55,11 @@
                                         <form class="form" role="form" method="post" action="login" accept-charset="utf-8" id="login-nav">
                                             <div class="form-group">
                                                 <label class="sr-only" for="InputEmail">Email Address</label>
-                                                <input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email address" required/>
+                                                <input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email address" required />
                                             </div>
                                             <div class="form-group">
                                                 <label class="sr-only" for="InputPassword">Password</label>
-                                                <input type="password" name="password" class="form-control" id="InputPassword" placeholder="Password" required/>
+                                                <input type="password" name="password" class="form-control" id="InputPassword" placeholder="Password" required />
                                                 <div class="help-block text-right"><a href="#">Forget the password?</a></div>
                                             </div>
                                             <div class="form-group">
@@ -63,7 +67,7 @@
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" name="checkbox"/>Keep me logged-in
+                                                    <input type="checkbox" name="checkbox" />Keep me logged-in
                                                 </label>
                                             </div>
                                         </form>
@@ -79,32 +83,323 @@
             </div>
         </div>
     </div>
+    <!-- Navigation ends -->
 
-    <!-- Header begins here -->
-    <dvi id="header" class="header">
+    <!-- Header section -->
+    <div id="header" class="header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
-                    <h1>DEVSLAND<span><sup>&reg;</sup></span></h1>
-                    <h3>Data driven approach to increase yout online sales</h3>
+                    <h1 class="wow bounceInLeft" data-wow-delay="0.5s">DEVSLAND<span><sup>&reg;</sup></span></h1>
+                    <h3 class="wow bounceInRight" data-wow-delay="0.5s">Data driven approach to increase your online sales</h3>
                 </div>
                 <div class="flex-container">
                     <div class="btn-grp">
-                        <button id="aa" class="flex-1 btn btn-lg btn-primary">Get Started</button>
-                        <button id="bb" class="flex-1 btn btn-lg btn-primary">View details</button>
+                        <button id="aa" class="flex-1 btn btn-lg btn-primary wow fadeInUp" data-wow-delay="0.5s">Get Started</button>
+                        <button id="bb" class="flex-2 btn btn-lg btn-primary wow fadeInUp" data-wow-delay="0.5s">View details</button>
                     </div>
                 </div>
             </div>
 
         </div>
-    </dvi>
+    </div>
+    <!-- Header ends -->
 
+    <!-- Services section -->
+    <div id="services" class="services">
+        <div class="container">
+            <h2 class="wow fadeInUp">Services</h2>
+            <p class="wow fadeInUp">Loream ipsu dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.8s">
+                    <i class="fas fa-desktop"></i>
+                    <h4>Web services</h4>
+                    <p>Innovate and moderm responsive web design and development</p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.4s">
+                    <i class="fas fa-mobile"></i>
+                    <h4>Mobile development</h4>
+                    <p>Mobile application development and its marketing</p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Merketing Analist</h4>
+                    <p>We analyse ypur product in current market and look for the growth opportunity</p>
+                </div>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.4s">
+                    <i class="fas fa-university"></i>
+                    <h4>Cloud finance</h4>
+                    <p>Loream ipsu dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Services section ends -->
+
+    <!-- Sales section -->
+    <div id="sales" class="sales">
+        <div class="container">
+
+            <div class="col-lg-6 col-md-6 wow jackInTheBox" id="left-side">
+                <img src="../content/images/sales6.png" class="img-responsive center-block" />
+            </div>
+
+            <div class="col-lg-6 col-md-6" id="right-side">
+                <h1 class="wow fadeInLeft">Increase your online sales upto 60%</h1>
+                <p class="wow slideInUp">We are commited to strategize your brand and redefine your marketing strategies</p>
+                <p class="wow slideInUp">Experience increase in your online sales gradually with our team of experts</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Sales section ends -->
+
+    <!-- Pricing section -->
+    <div id="pricing" class="pricing">
+        <div class="container">
+            <div class="row">
+                <h2 class="wow fadeInUp">Join us today</h2>
+                <p class="wow fadeInUp" data-wow-delay="0.6s">Market compatiable price with other benefits</p>
+                
+                <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="0.4s">
+                    <div class="packages" id="flip1">
+                        <h4>Bronze</h4>
+                        <h1>120$</h1>
+                        <b>Monthly</b>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">This is our bronze packages</p>
+                        <hr />
+                        <li>Websites</li>
+                        <li>Free site maintenance</li>
+                        <li>Monthly market analyst report</li>
+                        <li>Single account login</li>
+                        <button class="btn btn-success">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="0.8s">
+                    <div class="packages" id="flip2">
+                        <h4>Silver</h4>
+                        <h1>190$</h1>
+                        <b>Monthly</b>
+                        <p class="wow fadeInUp" data-wow-delay="0.8s">This is our silver packages</p>
+                        <hr />
+                        <li>Responsive Websites and apps</li>
+                        <li>Free hosting for data upto 20GB</li>
+                        <li>Weekly market analysis report</li>
+                        <li>5 users account</li>
+                        <button class="btn btn-success">Get Started</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="1.2s">
+                    <div class="packages" id="flip3">
+                        <h4>Golden</h4>
+                        <h1>290$</h1>
+                        <b>Monthly</b>
+                        <p class="wow fadeInUp" data-wow-delay="1.2s">This is our gold packages</p>
+                        <hr />
+                        <li>Responsive Websites and apps</li>
+                        <li>Free hosting for data upto 50GB</li>
+                        <li>Daily market analysis report</li>
+                        <li>Unlimited users account</li>
+                        <button class="btn btn-success">Get Started</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Pricing section ends -->
+
+    <!-- Mission section -->
+    <div id="mission" class="mission">
+        <div class="container">
+
+            <div class="col-lg-6 col-md-6" id="left-side">
+                <h1 class="wow fadeInLeft">Why are we different?</h1>
+                <p class="wow slideInUp">
+                    Our mission is to deliver the best sales result and grow your brand in digital realm,
+                    we use the most updated tech for web services and state of the art analytics tool for
+                    marketing analysis
+                </p>
+                <p class="wow slideInUp">
+                    we 7 years experience in delivering quality results with some huge corporations,
+                    join us today and be the part of it
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 wow slideInRight" id="right-side">
+                <img src="../content/images/experience2.png" />
+            </div>
+
+        </div>
+    </div>
+    <!-- Mission section ends -->
+
+    <!-- Client section -->
+    <div id="clients" class="clients">
+        <div class="container">
+            <div class="row">
+                <h2 class="wow fadeInUp">Trusted by</h2>
+                <p class="wow fadeInUp">Loream ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.2s">
+                    <li><img src="../content/images/clients_images/c1.png" /></li>
+                </div>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
+                    <li><img src="../content/images/clients_images/c2.png" /></li>
+                </div>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.4s">
+                    <li><img src="../content/images/clients_images/c3.png" /></li>
+                </div>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s">
+                    <li><img src="../content/images/clients_images/c4.png" /></li>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Client section ends -->
+
+    <!-- Team section -->
+    <div class="team" id="team">
+        <div class="container">
+            <div class="row">
+                <h2 class="wow fadeInUp">Meet our team</h2>
+                <p class="wow fadeInUp">Loream ipsum dolot sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s">
+                    <img src="../content/images/team_images/team2/team1.jpg" class="img-circle" />
+                    <h4>John Doe</h4>
+                    <b>CEO</b>
+                    <p class="wow fadeInUp" data-wow-delay="2s">Loream ipsum dolot sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3  wow fadeInLeft" data-wow-delay="1.6s">
+                    <img src="../content/images/team_images/team2/team2.jpg" class="img-circle" />
+                    <h4>John Doe</h4>
+                    <b>Marketing Director</b>
+                    <p class="wow fadeInUp" data-wow-delay="1.6s">Loream ipsum dolot sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3  wow fadeInLeft" data-wow-delay="1.2s">
+                    <img src="../content/images/team_images/team2/team3.jpg" class="img-circle" />
+                    <h4>John Doe</h4>
+                    <b>Data Analyst</b>
+                    <p class="wow fadeInUp" data-wow-delay="1.2s">Loream ipsum dolot sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
+                    <img src="../content/images/team_images/team2/team4.jpg" class="img-circle" />
+                    <h4>John Doe</h4>
+                    <b>Web developer and designer</b>
+                    <p class="wow fadeInUp" data-wow-delay="0.8s">Loream ipsum dolot sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Team section ends-->
+
+    <!-- Contact section -->
+    <div class="contacts" id="contacts">
+        <div class="container">
+            <div class="row">
+                <h2 class="wow fadeInUp">Contacts</h2>
+                <p class="wow fadeInUp">Loream ipsum dolot sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-user"></i></span>
+                        <input type="text" name="" class="form-control" aria-describedby="sizing-addon1" placeholder="Full name" />
+                    </div>
+                    <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.2s">
+                        <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-envelope"></i></span>
+                        <input type="text" name="" class="form-control" aria-describedby="sizing-addon1" placeholder="Email address" />
+                    </div>
+                    <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="1.8s">
+                        <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-phone"></i></span>
+                        <input type="text" name="" class="form-control" aria-describedby="sizing-addon1" placeholder="Phone number" />
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="2.4s">
+                    <div class="input-group">
+                        <textarea cols="80" rows="6" class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-lg">SUBMIT YOUR MESSAGE</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Contact section ends -->
+
+    <!-- Footer section -->
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4">
+                    <h4>Contact us</h4>
+                    <p><i class="fas fa-home"></i>F-141, sector-12B, Alabama, 754521</p>
+                    <p><i class="fas fa-envelope"></i>info@devsland.com</p>
+                    <p><i class="fas fa-phone"></i>11-232-888</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <h4>About</h4>
+                    <p>Loream ipsum dolot sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <h4>Stay in touch</h4>
+                    <a href="#"><i class="social fab fa-facebook"></i></a>
+                    <a href="#"><i class="social fab fa-twitter"></i></a>
+                    <a href="#"><i class="social fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="social fab fa-pinterest-p"></i></a>
+                    <a href=""><i class="social fab fa-youtube"></i></a>
+                    <a href=""><i class="social fab fa-github"></i></a>
+                    <input type="email" name="email" placeholder="Subscribe for updates" />
+                    <button class="btn btn-success">Subscribe</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer section ends  -->
 
     <script type="text/javascript" src="content/js/jquery.js"></script>
     <script type="text/javascript" src="content/js/bootstrap.min.js"></script>
-
-
-
+    <script type="text/javascript" src="content/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 </html>
